@@ -1,0 +1,69 @@
+==============================================================================
+STEP 7. CIRCULARITY TEST
+Hoti Cave stalagmite H12 d18O, northern Oman
+Sandy Hardian Susanto Herho (NIM 32426003)
+Generated 2026-10-20
+==============================================================================
+
+The six 5-yr bins between 500 and 530 CE are removed. The threshold,
+declustering and block length stay as in steps 5 and 6, so only the
+information carried by the event changes.
+
+
+pyextremes MLE without the window
+---------------------------------
+Declustered peaks                            19
+Largest remaining peak                       2.12 permil
+Shape xi                                     -0.858
+Upper endpoint                               2.13 permil
+Return period of 3.43 permil                 infinite (event beyond the fitted upper endpoint)
+Without the event the likelihood pushes the shape strongly negative, so the
+fitted tail ends just above the largest remaining peak. Maximum likelihood is
+not regular for xi below -0.5, which is why the Bayesian refit below
+constrains xi with a geophysical prior instead of trusting this estimate.
+
+
+Bayesian fits with the Martins-Stedinger (2000) prior
+-----------------------------------------------------
+The prior restricts xi to (-0.5, 0.5) and favors mildly heavy tails (prior
+mean +0.1). It therefore pulls the tail upward and shortens return periods, so
+any extremeness that survives it is conservative.
+
+GPD, with window                             median 4,374 yr [5 %: 1,429, 95 %: 25,763]; beyond endpoint 0 %
+GPD, without window                          median 9,138 yr [5 %: 2,042, 95 %: 532,812]; beyond endpoint 1 %
+GPD, uniform prior, with                     median 4,986 yr [5 %: 1,345, 95 %: 68,060]; beyond endpoint 0 %
+GPD, uniform prior, without                  median infinite (event beyond the fitted upper endpoint) [5 %: 3,566, 95 %: infinite]; beyond endpoint 60 %
+GEV 50-yr, with window                       median 3,737 yr [5 %: 1,254, 95 %: 22,128]; beyond endpoint 0 %
+GEV 50-yr, without window                    median 6,770 yr [5 %: 1,624, 95 %: 245,088]; beyond endpoint 1 %
+Posterior median xi, with / without          0.08 / 0.03
+P(such an event in a record this long), with 46 %
+P(such an event in a record this long), without 29 %
+  same, uniform prior, with / without        42 % / 8 %
+Posterior median xi, uniform prior, without  -0.33
+Under the uniform prior the posterior of xi piles up against the lower bound
+of -0.5: without the event, the data favor a tail that is bounded more sharply
+than the prior allows.
+
+
+Interpretation
+--------------
+Three statements follow. First, judged by the data alone, the rest of the
+record has a bounded dry tail ending near 2.1 permil, and the sixth-century
+value exceeds every other independent dry extreme by 1.3 permil. In that sense
+the event lies outside the behavior of the stalagmite over the other twenty-
+five centuries.
+
+Second, that conclusion depends on the tail shape, which 19 peaks cannot pin
+down. Under a neutral uniform prior on xi, 60 % of posterior draws without the
+window place the event beyond the upper limit of the tail, and the chance of
+such an event in a record of this length is 8 %. Under the heavy-tail Martins-
+Stedinger prior it is 9,138 yr (versus 4,374 yr with the event included), and
+that chance rises to about 29 %. The prior on the tail shape, not the data,
+decides between 'outside the normal range' and 'rare but expected once in a
+few such records'.
+
+Third, every variant agrees that removing the event lengthens its return
+period, which confirms that fitting a model to the event itself flatters it.
+The defensible summary is a record-breaking, multi-millennial drought whose
+exact return period is uncertain by an order of magnitude or more, not a
+precise recurrence time.

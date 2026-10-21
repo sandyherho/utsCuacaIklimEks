@@ -1,0 +1,46 @@
+==============================================================================
+STEP 1. DATA PROVENANCE AND HOMOGENIZATION
+Hoti Cave stalagmite H12 d18O, northern Oman
+Sandy Hardian Susanto Herho (NIM 32426003)
+Generated 2026-10-21
+==============================================================================
+
+
+Source
+------
+File read                                    h12_transcribed_noaa38500.tsv
+Original NOAA file                           False
+The transcribed table reproduces the NOAA NCEI study 38500 file
+(doi:10.25921/erfq-6235). Place the original fleitmann2022-stalagmite12.txt in
+data/raw to use it instead; the pipeline then reads it automatically.
+
+Column identified as d18O                    d13C
+|1978-1997 mean - (-1.8)| for d13C           0.025 permil
+|1978-1997 mean - (-1.8)| for d18O           4.354 permil
+The NOAA header labels the two isotope columns in the opposite order to their
+values. The column whose 1978-1997 mean matches the published modern baseline
+of -1.8 permil is taken as d18O.
+
+
+Native record
+-------------
+Samples                                      1362
+Age range (CE)                               -630.9 to 1996.4
+Depth range (mm)                             0.20 to 592.92
+1978-1997 mean d18O (permil VPDB)            -1.825
+Samples sharing an identical age             10
+Spacing median / 5th / 95th pct (yr)         1.80 / 0.60 / 3.50
+Maximum anomaly (permil) and age (CE)        3.87 at 523.0
+
+Homogenized record
+------------------
+Samples are averaged into 5-yr bins. Sample spacing varies from sub-annual
+near the top to more than 3 yr at depth, so each native sample integrates a
+different time span. Binning removes most of this resolution contrast, which
+would otherwise inflate the apparent variance of the young part of the record.
+
+Bins                                         527 (empty: 0)
+Samples per bin, median (range)              2 (1-26)
+Maximum binned anomaly (permil) and bin      3.43 at 522.5 CE
+Anomalies are d18O minus the 1978-1997 baseline. Positive values indicate less
+winter-spring rainfall than at present.

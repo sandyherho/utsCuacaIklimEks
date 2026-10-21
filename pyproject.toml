@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "h12eva"
+version = "1.0.0"
+description = "Extreme value analysis of the Hoti Cave H12 stalagmite d18O record"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Sandy Hardian Susanto Herho", email = "sandyherho@itb.ac.id"}]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.11",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "statsmodels>=0.14",
+    "pymannkendall>=1.4",
+    "pyextremes>=2.3",
+    "emcee>=3.1",
+]
+
+[project.urls]
+Repository = "https://github.com/sandyherho/utsCuacaIklimEks"
+
+[project.optional-dependencies]
+dev = ["flake8>=6.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

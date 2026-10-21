@@ -1,0 +1,48 @@
+==============================================================================
+STEP 6. BLOCK MAXIMA (GEV)
+Hoti Cave stalagmite H12 d18O, northern Oman
+Sandy Hardian Susanto Herho (NIM 32426003)
+Generated 2026-10-21
+==============================================================================
+
+Block maxima are taken from the 5-yr series and fitted with a GEV by maximum
+likelihood in pyextremes. Shape xi follows the Coles (2001) convention: xi < 0
+bounded tail, xi = 0 Gumbel, xi > 0 heavy tail.
+
+
+50-yr blocks (53 maxima)
+------------------------
+xi [bootstrap 90 %]                          0.017 [-0.21, 0.16]
+mu, sigma (permil)                           0.083, 0.674
+  return level    200 yr                      0.93 [ 0.67,  1.20] permil
+  return level    500 yr                      1.63 [ 1.24,  1.98] permil
+  return level   1000 yr                      2.14 [ 1.59,  2.65] permil
+  return level   2000 yr                      2.64 [ 1.89,  3.37] permil
+  return level   5000 yr                      3.31 [ 2.21,  4.48] permil
+  return level  10000 yr                      3.82 [ 2.39,  5.45] permil
+Return period of 3.43 permil (MLE)           5,897 yr
+Without 500-530 CE: xi, return period        -0.110, 54,812 yr
+  bootstrap median [5 %, 95 %]               6,974 [2,087, > 1,000,000] yr; beyond endpoint in 4 %
+
+100-yr blocks (27 maxima)
+-------------------------
+xi [bootstrap 90 %]                          -0.039 [-0.52, 0.68]
+mu, sigma (permil)                           0.416, 0.720
+  return level    200 yr                      0.68 [ 0.36,  0.99] permil
+  return level    500 yr                      1.46 [ 1.00,  1.81] permil
+  return level   1000 yr                      1.97 [ 1.39,  2.57] permil
+  return level   2000 yr                      2.43 [ 1.70,  4.06] permil
+  return level   5000 yr                      3.02 [ 1.94,  7.72] permil
+  return level  10000 yr                      3.44 [ 2.07, 12.31] permil
+Return period of 3.43 permil (MLE)           9,767 yr
+Without 500-530 CE: xi, return period        -0.306, infinite (event beyond the fitted upper endpoint)
+  bootstrap median [5 %, 95 %]               8,808 [1,549, infinite] yr; beyond endpoint in 19 %
+
+Interpretation
+--------------
+Both block sizes give shapes close to zero (Gumbel-like), and the threshold
+model shape is also compatible with zero within its interval. The return
+period of the event is 5,897 yr with 50-yr blocks and 9,767 yr with 100-yr
+blocks, the same order of magnitude as the threshold model. Block maxima waste
+information, since many blocks contain no real drought, so they serve here as
+an independent cross-check, not as the main estimate.

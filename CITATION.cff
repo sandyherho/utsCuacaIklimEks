@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "hoti-h12-eva: extreme value analysis of the Hoti Cave H12 stalagmite d18O record"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/sandyherho/utsCuacaIklimEks"
+url: "https://github.com/sandyherho/utsCuacaIklimEks"
+authors:
+  - family-names: Herho
+    given-names: Sandy Hardian Susanto
+    email: sandyherho@itb.ac.id
+    affiliation: "Bandung Institute of Technology"
+references:
+  - type: article
+    title: "Droughts and societal change: The environmental context for the emergence of Islam in late Antique Arabia"
+    authors:
+      - family-names: Fleitmann
+        given-names: Dominik
+      - family-names: Haldon
+        given-names: John
+    journal: Science
+    volume: 376
+    issue: 6599
+    start: 1317
+    end: 1321
+    year: 2022
+    doi: 10.1126/science.abg4044

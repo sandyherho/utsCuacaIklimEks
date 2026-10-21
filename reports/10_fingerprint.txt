@@ -1,0 +1,46 @@
+==============================================================================
+STEP 10. FINGERPRINT OF THE EVENT
+Hoti Cave stalagmite H12 d18O, northern Oman
+Sandy Hardian Susanto Herho (NIM 32426003)
+Generated 2026-10-21
+==============================================================================
+
+
+Magnitude
+---------
+Peak native anomaly                          3.87 permil at 523.0 CE
+Peak 5-yr anomaly                            3.43 permil (rank 1 of 527)
+z-score against rest of record               5.1
+Margin over next independent peak            1.31 permil
+
+Persistence (run theory)
+------------------------
+Spell                                        475 to 545 CE
+  Spell peak                                 rank 1 of 26
+  Spell severity                             rank 2 of 26
+  Spell duration                             rank 2 of 26
+  Spell intensity                            rank 3 of 26
+
+Return period of the 520-525 CE anomaly
+---------------------------------------
+  [with] POT-GPD, MLE + bootstrap            11,594 [3,196, infinite]
+  [with] POT-GPD, pyextremes Emcee           4,035 [936, 60,593]
+  [with] GEV, 50-yr blocks                   5,897 [2,087, > 1,000,000]
+  [with] GEV, 100-yr blocks                  9,767 [1,549, infinite]
+  [with] GPD, MS prior                       4,374 [1,429, 25,763]
+  [local] Local frame, POT-GPD               13,041 [3,947, infinite]
+  [local] Local frame, GEV with background   3,791
+  [without] GPD, MS prior                    9,138 [2,042, 532,812]
+  [without] GPD, uniform prior               infinite [3,566, infinite]
+  [without] GEV 50-yr, MS prior              6,770 [1,624, 245,088]
+  [without] POT-GPD, MLE                     infinite
+  robustness grid, event in fit              5,562 to 20,766 yr over 36 choices
+
+Timing
+------
+The binned peak falls in the 520-525 CE bin and the native peak at 523 CE. The
+published age uncertainty of about +/-30 yr spans 493 to 553 CE, which
+contains the Aksumite conquest (525 CE) and the last Himyarite inscription
+(about 559 CE) but would also contain any other event of the same decades.
+Timing is consistent with the historical sequence without being diagnostic of
+it.

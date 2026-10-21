@@ -1,0 +1,53 @@
+==============================================================================
+STEP 3. TIME STRUCTURE
+Hoti Cave stalagmite H12 d18O, northern Oman
+Sandy Hardian Susanto Herho (NIM 32426003)
+Generated 2026-10-21
+==============================================================================
+
+
+Persistence (Mudelsee 2002 least-squares estimator)
+---------------------------------------------------
+tau, native uneven series                    11.5 yr
+tau, 5-yr bins                               19.5 yr
+tau, 5-yr bins minus LOWESS background       8.6 yr
+Excursions persist for roughly a decade. Binning raises tau because the 5-yr
+average itself adds correlation, so the native value is the better physical
+estimate. The declustering window for the threshold models is set to 10 yr,
+close to tau, so that peaks closer than one persistence time count as a single
+event. The residual series still carries multi-decadal memory, visible as
+slowly decaying autocorrelation, so effective sample sizes are much smaller
+than the number of bins.
+
+
+Monotonic trend (Hamed-Rao modified Mann-Kendall)
+-------------------------------------------------
+Kendall tau                                  -0.088
+z, p                                         -0.75, 0.455
+Sen slope                                    -0.122 permil per kyr
+
+Regime shifts
+-------------
+Pettitt change point                         1355 CE (p = 3.1e-14)
+Binary segmentation breaks (CE)              -485, -235, 40, 405, 625, 785, 935, 1355
+Segment means (permil)                       -0.92, -0.21, 0.40, -0.81, 0.56, -0.06, 0.80, -0.05, -0.72
+Binary segmentation uses a BIC penalty and a minimum segment of 150 yr.
+Autocorrelation makes such tests liberal, so breaks are read as regime
+descriptions, not as formal detections. The segment means show that the mean
+state shifts by more than 1 permil over the record, which is the main reason a
+single stationary extreme value model needs the checks in step 8.
+
+
+Spectral content (Lomb-Scargle vs AR(1) red noise)
+--------------------------------------------------
+Red-noise levels come from 1000 AR(1) surrogates generated on the native
+sampling times with the estimated tau. Local maxima above the 95 % level:
+
+  period   409.2 yr                          power 0.116  (also above 99 %)
+  period   783.8 yr                          power 0.072
+Isolated exceedances of the 95 % level are expected by chance across many
+frequencies, so only peaks above the 99 % level deserve attention. A peak near
+409 yr clears the 99 % level, but the record contains only about six such
+cycles, so it is read as suggestive multi-centennial variability, not as a
+periodic driver. Most variance sits in red-noise-like power at long periods,
+consistent with regime behavior.

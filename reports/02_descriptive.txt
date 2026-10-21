@@ -1,0 +1,47 @@
+==============================================================================
+STEP 2. DESCRIPTIVE STATISTICS
+Hoti Cave stalagmite H12 d18O, northern Oman
+Sandy Hardian Susanto Herho (NIM 32426003)
+Generated 2026-10-20
+==============================================================================
+
+Statistics refer to d18O anomalies (permil VPDB, relative to -1.8 permil) on
+the 5-yr grid unless stated. Positive anomaly means drier than 1978-1997.
+
+
+Summary table
+-------------
+                         n   mean    sd  median   mad  skewness  ex_kurtosis    min    q05    q25    q75   q95   q99   max
+All bins               527 -0.238 0.756  -0.315 0.734     0.693        1.231 -2.083 -1.293 -0.778  0.212 1.145 1.835 3.430
+Native samples        1362 -0.310 0.754  -0.380 0.712     0.824        2.164 -2.220 -1.360 -0.850  0.128 1.000 1.904 3.870
+E1 (631 BCE-479 CE)    223 -0.329 0.752  -0.453 0.573     0.634        0.794 -2.083 -1.446 -0.796  0.107 1.154 1.818 2.115
+E2 (480-1399 CE)       184  0.176 0.712   0.121 0.547     0.689        2.547 -1.855 -0.893 -0.244  0.485 1.279 2.053 3.430
+E3 (1400-1996 CE)      120 -0.703 0.437  -0.778 0.452     0.255       -0.559 -1.727 -1.301 -1.016 -0.404 0.012 0.200 0.304
+Excluding 500-530 CE   521 -0.259 0.723  -0.333 0.708     0.451        0.214 -2.083 -1.297 -0.790  0.205 1.085 1.638 2.115
+
+
+Distribution shape
+------------------
+Jarque-Bera, all bins                        JB = 74.0, p = 8.47e-17
+Jarque-Bera, excluding 500-530 CE            JB = 18.4, p = 9.94e-05
+Kruskal-Wallis across epochs                 H = 125.3, p = 6.31e-28
+Event bin z-score, all bins                  4.85 SD
+Event bin z-score vs rest of record          5.11 SD
+
+Interpretation
+--------------
+Median anomalies differ between epochs: -0.45, 0.12 and -0.78 permil for E1
+(631 BCE-479 CE), E2 (480-1399 CE) and E3 (1400-1996 CE). The middle epoch is
+the driest, consistent with the persistently low effective moisture reported
+for about 480 to 1400 CE. The record is therefore not stationary in its mean,
+which matters for the extreme value models in steps 5 to 8.
+
+The 520-525 CE bin lies 5.1 standard deviations above the mean of the
+remaining record and is the largest value on the grid. Positive skewness and
+excess kurtosis indicate a heavier dry tail than a Gaussian, and the normal
+quantile plot shows the event as the single point furthest from the line.
+
+Removing the six bins of 500-530 CE lowers the excess kurtosis from 1.23 to
+0.21 and the skewness from 0.69 to 0.45. A 30-yr window, about 1 % of the
+record, therefore carries most of the heavy-tail signature of the full
+distribution.

@@ -1,0 +1,48 @@
+==============================================================================
+STEP 4. DROUGHT SPELLS (RUN THEORY)
+Hoti Cave stalagmite H12 d18O, northern Oman
+Sandy Hardian Susanto Herho (NIM 32426003)
+Generated 2026-10-21
+==============================================================================
+
+A drought spell is a run of consecutive 5-yr bins with anomaly above the 75th
+percentile (0.21 permil). Runs separated by at most 1 sub-threshold bin are
+pooled. Severity is the summed exceedance multiplied by the bin width (permil
+yr); intensity is severity divided by duration.
+
+Number of spells                             26
+Median duration (yr)                         10
+Median severity (permil yr)                  2.11
+
+Spell containing 500-530 CE
+---------------------------
+Interval (CE)                                475 to 545
+Peak                                         3.43  (rank 1 of 26, percentile 100)
+Severity                                     65.34  (rank 2 of 26, percentile 96)
+Intensity                                    0.93  (rank 3 of 26, percentile 92)
+Duration                                     70.00  (rank 2 of 26, percentile 96)
+
+Ten most severe spells
+----------------------
+   start_ce  end_ce  duration_yr  severity  peak  intensity
+0    730.00  935.00       205.00    101.36  1.58       0.49
+1    475.00  545.00        70.00     65.34  3.43       0.93
+2   -120.00  -65.00        55.00     41.26  2.12       0.75
+3    -45.00   15.00        60.00     29.95  1.50       0.50
+4    575.00  625.00        50.00     28.75  1.59       0.57
+5   -230.00 -205.00        25.00     24.09  1.95       0.96
+6   1070.00 1130.00        60.00     18.34  1.06       0.31
+7   -325.00 -315.00        10.00     12.35  1.67       1.24
+8   -425.00 -400.00        25.00     11.03  1.24       0.44
+9    405.00  415.00        10.00      8.80  1.17       0.88
+
+
+Interpretation
+--------------
+The sixth-century spell (475 to 545 CE) ranks 1 in peak, 2 in severity, 3 in
+intensity and 2 in duration among 26 spells. The 730 to 935 CE spell
+accumulates more severity (101 permil yr) because it lasts 205 yr, but its
+intensity (0.49 permil) is about 1.9 times lower. The sixth-century spell is
+therefore both long and deep, and its peak is unmatched. Its onset in the 470s
+CE agrees with the weakening of Himyar from the 480s CE described by Fleitmann
+et al. (2022).

@@ -1,0 +1,55 @@
+==============================================================================
+SUMMARY FOR PRESENTATION
+Hoti Cave stalagmite H12 d18O, northern Oman
+Sandy Hardian Susanto Herho (NIM 32426003)
+Generated 2026-10-21
+==============================================================================
+
+Aim: to quantify how extreme, in statistical terms, the sixth-century drought
+recorded by Hoti Cave stalagmite H12 (Fleitmann et al. 2022) is, and to
+identify which parts of that claim are robust.
+
+
+Answers
+-------
+1. Magnitude. The 520-525 CE anomaly of 3.43 permil is the largest value in
+2630 yr, 5.1 standard deviations above the rest of the record and 1.3 permil
+above the next independent dry peak. A 30-yr window carries most of the excess
+kurtosis of the whole record.
+
+2. Persistence. It sits inside a 70-yr spell (475 to 545 CE), ranked first in
+peak and second in severity and duration among 26 spells.
+
+3. Rarity with the event in the fit. Threshold and block models agree on a
+return period of roughly 5,562 to 20,766 yr across 36 analysis choices (MLE
+11,594 yr). No choice brings it below the record length.
+
+4. Rarity judged by the rest of the record. Leaving the window out, the data
+alone bound the dry tail near 2.1 permil, below the event. With a neutral
+prior on the tail shape, 60 % of posterior draws put the event beyond the
+tail. With a heavy-tail geophysical prior the median is 9,138 yr. The tail
+shape, which 19 peaks cannot resolve, controls the answer.
+
+5. Local frame. Against the climate state of its own century the event still
+ranks first (residual 3.24 permil), so it is not a by-product of a drier
+regime.
+
+6. Timing. The +/-30 yr age uncertainty overlaps the Aksumite conquest and the
+decline of Himyar but cannot single them out.
+
+
+Bottom line
+-----------
+The H12 record supports a record-breaking, multi-millennial drought in the
+early sixth century CE. The statistical evidence for its magnitude is strong
+and robust; its exact return period is uncertain by an order of magnitude; its
+link to Himyar rests on timing that the dating cannot resolve below a few
+decades.
+
+
+Caveats
+-------
+Single stalagmite; d18O only (no d13C); no age-model ensemble; the transcribed
+table should be checked against the original NOAA file; isotopes are a proxy
+for winter-spring rainfall, not rainfall itself; 19 to 21 declustered peaks
+limit every tail model.

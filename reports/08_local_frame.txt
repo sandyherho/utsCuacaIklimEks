@@ -1,0 +1,45 @@
+==============================================================================
+STEP 8. LOCAL REFERENCE FRAME
+Hoti Cave stalagmite H12 d18O, northern Oman
+Sandy Hardian Susanto Herho (NIM 32426003)
+Generated 2026-10-21
+==============================================================================
+
+A robust LOWESS curve with a 300-yr window describes the slowly varying mean
+state. Robust iterations down-weight outliers, so the event itself has little
+influence on its own background.
+
+
+Event relative to the background
+--------------------------------
+Background at the event (permil)             0.19
+Event residual (permil)                      3.24 at 522.5 CE
+Rank of residual among all bins              1 of 527
+Largest residual peak outside window         2.13 permil
+
+Threshold model on residuals (pyextremes MLE)
+---------------------------------------------
+Threshold                                    0.679 permil, 21 peaks
+xi, sigma                                    -0.230, 0.897
+Return period of event residual              13,041 yr; bootstrap median 15,339 [3,947, infinite]
+Same, window excluded from the fit           infinite (event beyond the fitted upper endpoint)
+
+Non-stationary GEV, 50-yr maxima
+--------------------------------
+Location linear in time: LR, p               1.44, 0.231
+Location linear in background: LR, p         38.76, 4.79e-10
+Slope of mu on background                    1.11 permil per permil
+Event return period given its background     3,791 yr
+
+Interpretation
+--------------
+The event occurred while the background itself was above the modern baseline
+(+0.19 permil), so part of its anomaly reflects a drier regime. Even after
+removing the background, the sixth-century residual ranks 1 of 527 and exceeds
+the largest residual peak elsewhere by 1.1 permil. Allowing the GEV location
+to follow the background improves the fit (p = 4.79e-10); conditional on the
+regime of the time, the return period is about 3,791 yr. That p-value is
+optimistic, because the background is estimated from the same series as the
+maxima, so the covariate is not independent of the response. The event is
+therefore extreme in both frames: against the present day and against the
+climate of its own century.
